@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ВместоСклада | Заказать расчёт</title>
+  <link type="image/png" sizes="512x512" rel="icon" href="./favicon.png">
+  <!--Styles-->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/dialog.css">
+  <link rel="stylesheet" href="css/jquery-modal.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/calculate-price.css">
+  <!--Adaptive-->
+  <link rel="stylesheet" href="css/media.css">
+  <meta name="viewport" content="width=device-width">
+  <!--Fonts-->
+  <!--Font Roboto-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!--Font Open Sans-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <!--Bootstrap-->
+</head>
+<body>
+  <div class="media">
+  <!--Section #1-->
+
+    <div class="section-1-cp" id="main">   
+      <div class="section-1-head-container">
+        <div class="section-1-head">
+          <h1><a class="logo" href="index.html">ВместоСклада</a></h1>
+          <div class="header__burger">
+            <span></span>
+          </div>
+          <nav class="header__menu">
+            <il class="header__list">
+              <li><a class="header__link"  href="index.html#about">О нас</a></li>
+              <li><a class="header__link"  href="services.html">Услуги</a></li>
+              <li><a class="header__link"  href="index.html#partners">Наши партнёры</a></li>
+              <li><a class="header__link"  href="index.html#contacts">Контакты</a></li>
+              <!-- <li><a class="header__link"  href="index.html#map">Геолокация</a></li> -->
+              <li><a class="header__link"  href="#ex1" rel="modal:open">Обратная связь</a></li>
+              <li><a class="header__link-price"  href="calculate-price.html">Заказать расчёт</a></li>
+            </il> 
+          </nav>
+        </div> 
+      </div> 
+
+      <div class="cp-zagolovok">
+        <h1>Подайте заявку</h1>
+        <p>
+          Наш специалист рассчитает стоимость хранения и <br>
+          пришлет предложение в течение 1 часа
+        </p>
+      </div>
+
+      <div class="cp-line"></div>
+
+      <div class="cp-form-container">
+        <form action="https://formsubmit.co/danilavoronkov2002@gmail.com" method="POST" class="cp-form">
+          <div class="cp-selection">
+            <h1>Груз</h1>
+            <select name="Груз" id="">
+              <option value="Укажите характер груза">Укажите характер груза</option>
+              <option value="Евро-паллета (80х120 см)">Евро-паллета (80х120 см)</option>
+              <option value="Негабаритный груз (свыше 80х120 см)">Негабаритный груз (свыше 80х120 см)</option>
+              <option value="Другое (укажу в комментарии)">Другое (укажу в комментарии)</option>
+            </select>
+          </div>
+          <div class="cp-selection">
+            <h1>Количество</h1>
+            <select name="Количество" id="">
+              <option value="Укажите количество">Укажите количество</option>
+              <option value="10-30">10-30</option>
+              <option value="30-100">30-100</option>
+              <option value="Более 100">Более 100</option>
+            </select>
+          </div>
+          <div class="cp-selection">
+            <h1>Срок</h1>
+            <select name="Срок" id="">
+              <option value="Укажите срок хранения">Укажите срок хранения</option>
+              <option value="До 3 месяцев">До 3 месяцев</option>
+              <option value="До 6 месяцев">До 6 месяцев</option>
+              <option value="До 12 месяцев">До 12 месяцев</option>
+              <option value="Более 12 месяцев">Более 12 месяцев</option>
+              <option value="Срок пока не определен">Срок пока не определен</option>
+            </select>
+          </div>
+          <div class="cp-selection">
+            <h1>Вид лица</h1>
+            <select name="Количество" id="">
+              <option value="Укажите количество">Вид лица</option>
+              <option value="Физическое">Физическое</option>
+              <option value="Юридическое">Юридическое</option>
+            </select>
+          </div>
+          <!-- <div class="cp-selection">
+            <h1>Категория услуг</h1>
+            <select name="Количество" id="">
+              <option value="Укажите количество">Укажите количество</option>
+              <option value="Услуга">Услуга</option>
+              <option value="Услуга">Услуга</option>
+            </select>
+          </div> -->
+          <div>
+            <h1>Ваше имя</h1>
+            <input type="text" name="Имя" required>
+          </div>
+          <div>
+            <h1>Ваш e-mail</h1>
+            <input type="email" name="E-mail" required>
+          </div>
+          <div>
+            <h1>Номер телефона</h1>
+            <input type="tel" name="tel" class="tel" required>
+          </div>
+          <div>
+            <h1>Комментарии</h1>
+            <textarea name="Комментарии"></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Отправить</button>
+          </div>
+
+
+          <input type = "hidden" name = "_captcha" value = "false">
+          <input type = "hidden" name = "_next" value = "https://dapzer.github.io/nord-ovosh/">
+        </form>
+      </div>
+
+    </div>
+
+
+    <!-- Modal -->
+
+    <div id="ex1" class="modal">
+      <form action="https://formsubmit.co/danilavoronkov2002@gmail.com" method="POST">
+        <h1>Ваше имя</h1>
+        <input type="text" name="Имя" required>
+        <h1>Ваш e-mail</h1>
+        <input type="email" name="E-mail" required>
+        <h1>Ваша организация</h1>
+        <input type="company" name="Компания" required>
+        <h1>Ваш вопрос</h1>
+        <textarea name="Вопрос"></textarea>
+
+        <div>
+          <button type="submit">Отправить</button>
+        </div>
+
+        <input type = "hidden" name = "_captcha" value = "false">
+        <input type = "hidden" name = "_next" value = "https://dapzer.github.io/nord-ovosh/">
+      </form>
+    </div>
+
+    <!--Section #7-->
+
+    <div class="sectopn-7">
+      <div class="sectopn-7-container">
+        <h1>ООО «ЛОГИСТИКА-36» | ОГРНИП: 1167847141550 | ИНН: 7804561471 | КПП: 780401001</h1>
+        <div class="sectopn-7-line"></div>
+        <h2>2021 designed and created by Данила Воронков <br>
+        Telegram: @Dapzer</h2>
+      </div>
+    </div>
+
+
+  <!-- Подключаем jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- Подключаем файл скриптов -->
+		<script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="js/calculate-price.js"></script>
+
+  </div>
+</body>
+</html> 

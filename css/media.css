@@ -1,0 +1,197 @@
+@media screen and (max-width: 1535px){
+  .mobail-icon{
+    right: -120px;
+  }
+  @keyframes modal{
+    0%{
+      opacity: 0;
+      right: -250px;
+    }
+    100%{
+      opacity: 1;
+      right: -120px;
+    }
+  }
+  .mobail-icon:hover{
+    right: -15px;
+    animation-name: modal-2;
+    animation-duration: 1.5s;
+  }
+}
+@media  screen and (max-width: 1299px){
+  .media{
+     max-width: 100%;
+  }
+}
+@media screen and (max-width: 1099px){
+  .media{
+    max-width: 100%;
+  }
+  .mobail-icon{
+    display: none;
+  }
+}
+@media screen and (max-width: 899px){
+  .media{
+    max-width: 100%;
+  }
+  .section-5-contacts{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+    .section-1-zagolovok{
+      padding-top: 30px;
+    }
+}
+@media screen and (max-width: 780px){
+  .media{
+    max-width: 100%;
+  }
+  .section-2-container img{
+    display: none;
+  }
+  .section-2-container{
+    text-align: center;
+    justify-content: center;
+  }
+  .section-2-container-2{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-3-container{
+    text-align: center;
+    justify-content: center;
+  }
+  .section-4-block-2-containers{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-4-block-2-containers img{
+    display: none;
+  }
+  .section-4-predlojenya div{
+    margin-top: 10px;
+  }
+  .arrowUp{
+    display: none;
+  }
+  .slider{
+    padding: 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 699px){
+  .media{
+    max-width: none;
+  }
+  .section-1-head h1{
+    text-align: center;
+  }
+  .section-1-head nav{
+    text-align: center;
+  }
+  .section-1-zagolovok{
+    padding-top: 30px;
+  }
+
+  .section-1-head nav{
+    padding-top: 20px;
+  }
+
+  .slider .slick-arrow.slick-next{
+    display: none;
+  }
+  .slider .slick-arrow.slick-prev{
+    display: none;
+  }
+  .section-3-container-2{
+    justify-content: center;
+  }
+}  
+@media screen and (max-width: 570px){
+  .media{
+    max-width: none;
+  } 
+  .section-1-head-container-fixed a:hover{
+    border: none;
+    padding: 0;
+  }
+  .section-1-zagolovok{
+    padding-top: 20px;
+  }
+  .section-1-zagolovok h3{
+    font-size: 20px;
+  }
+  .wrapper{
+    bottom: 20px;
+  }
+  .slider .slick-arrow.slick-next{
+    display: none;
+  }
+  .slider .slick-arrow.slick-prev{
+    display: none;
+  }
+  .slider{
+    padding: 0 10px;
+  }
+  .cp-zagolovok h1{
+    font-size: 40px;
+  }
+  .sv-zagolovok h1{
+    font-size: 40px;
+  }
+  .cp-zagolovok p{
+    font-size: 25px;
+  }
+  .cp-form div{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section-8-container div{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cp-form h1{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  .section-9-container-2{
+    flex-wrap: wrap;
+  }
+  .section-9-container-2 iframe{
+    padding-top: 20px;
+  }
+  .section-1{
+    height: unset;
+  }
+  .wrapper{
+    position: unset;
+  }
+}
+@media screen and (max-height: 475px){
+  .wrapper{
+    position: unset;
+  }
+  .section-1{
+    height: unset;
+  }
+}
+@media screen and (max-width: 360px){
+  .section-1-zagolovok{
+    padding-top: 5px;
+  }
+}
+@media screen and (min-height: 1080px){
+  .section-1{
+    max-height: 1080px;
+  }
+}
+.section-1-zagolovok-fix{
+  padding-top: 110px;
+}
