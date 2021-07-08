@@ -22,8 +22,6 @@ $(function() {
 });
 
 $(document).ready(function() {
-	RewriteEngine.on 
-
     $('.wrapper').removeClass('none-slider')
 });
 

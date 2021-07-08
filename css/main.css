@@ -703,6 +703,11 @@ html {
   padding: 7px;
 }
 
+.telegram{
+  font-size: 13px !important;
+  text-transform: none !important;
+}
+
 /* Section #9 */
 
 .section-9{
