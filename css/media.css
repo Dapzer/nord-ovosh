@@ -167,21 +167,18 @@
   .section-9-container-2 iframe{
     padding-top: 20px;
   }
+}
+@media screen and (max-height: 640px){
   .section-1{
-    height: unset;
+      height: unset;
   }
   .wrapper{
-    position: unset;
+      padding-top: 50px;
+      position: unset;
   }
 }
-@media screen and (max-height: 475px){
-  .wrapper{
-    position: unset;
-  }
-  .section-1{
-    height: unset;
-  }
-}
+
+
 @media screen and (max-width: 360px){
   .section-1-zagolovok{
     padding-top: 5px;

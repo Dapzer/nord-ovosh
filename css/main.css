@@ -934,6 +934,7 @@ html {
     overflow: auto;
   }
   .header__menu.active{
+    z-index: 2;
     top: 65px;
     right: 0;
     transition: all 0.3s ease 0s; 
